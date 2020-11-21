@@ -4,7 +4,7 @@ class Database {
   private $connection;
   function connect()
   {
-        $this->connection =  mysqli_connect("62.149.150.157","Sql557066","033dddf6","Sql557066_4");
+        $this->connection =  mysqli_connect("host","user","password","dbname");
   }
 
   //execute for query
